@@ -16,7 +16,7 @@ MemeCards is a fun, interactive yet simple turn-based card game that everyone ca
 - Every turn, a player must choose a card to play
 - Which card has higher upvotes will win the turn
 - A card's upvote can be lower/higher based on the current events
-- If a play wins 3 turns first, they win the game (BO5 game)
+- If a player wins 3 turns first, he/she would win the game (BO5 game)
 
 ## Testing
 There are 2 types of tests and test suites exists for both:
