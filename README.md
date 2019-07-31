@@ -3,13 +3,20 @@ MemeCards is a fun, interactive yet simple turn-based card game that everyone ca
 
 ## Getting Started
 1. Clone the repo.
-- `git clone https://code.cs.umanitoba.ca/comp3350-summer2019/cards-9.git`
+- `git clone https://github.com/frostwyrm9x/MemeCards.git`
 2. Import into Android Studio.
 - In Android Studio, start a new project by importing the cloned repo.
 3. Build the project.
 - Click on the green hammer icon at the top of the page in Android Studio to build the project
 4. Run the app.
 - Click the green play button at the top of the page in Android Studio to install and start the app on the android device.
+
+## Gameplay
+- Each player has 5 cards
+- Every turn, a player must choose a card to play
+- Which card has higher upvotes will win the turn
+- A card's upvote can be lower/higher based on the current events
+- If a play wins 3 turns first, they win the game (BO5 game)
 
 ## Testing
 There are 2 types of tests and test suites exists for both:
