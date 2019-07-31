@@ -1,0 +1,88 @@
+{
+  "events" : [
+    {
+      "name" : "pedoWeebs",
+      "description" : "r/anime: Breaking new: all weebs are pedo",
+      "tag" : "Anime",
+      "positive" : false
+    },
+    {
+      "name" : "oscar",
+      "description" : "r/movies: Oscar award's coming soon",
+      "tag" : "Movies",
+      "positive" : true
+    },
+    {
+      "name" : "cartoons",
+      "description" : "r/cartoon: CartoonNetwork joined Disney",
+      "tag" : "Cartoon",
+      "positive" : true
+    },
+    {
+      "name" : "newBlockbusters",
+      "description" : "r/movies: 3 new blockbusters are now showing in theatres.",
+      "tag" : "Movies",
+      "positive" : true
+    },
+    {
+      "name" : "dumped",
+      "description" : "r/irl: You have just been dumped.",
+      "tag" : "IRL",
+      "positive" : true
+    },
+    {
+      "name" : "newSeason",
+      "description" : "r/sports: E-sport is now recognized as real sport",
+      "tag" : "Sports",
+      "positive" : true
+    },
+    {
+      "name" : "newStudy",
+      "description" : "r/anime: New study finds that many animes encourage creativity.",
+      "tag" : "Anime",
+      "positive" : true
+    },
+    {
+      "name" : "streamable",
+      "description" : "r/sports: Lebron James' grotesque leg injury.",
+      "tag" : "Sports",
+      "positive" : false
+    },
+    {
+      "name" : "notFunny",
+      "description" : "r/irl: TIFU by watching porn",
+      "tag" : "IRL",
+      "positive" : false
+    },
+    {
+      "name" : "sony",
+      "description" : "r/movies: Sony cracks down on copyrighted materials on Reddit.",
+      "tag" : "Movies",
+      "positive" : false
+    },
+    {
+      "name" : "olympics",
+      "description" : "r/sports: The Olympics is nearing.",
+      "tag" : "Sports",
+      "positive" : true
+    },
+    {
+      "name" : "offensive",
+      "description" : "r/gaming: CyberPunk's coming out",
+      "tag" : "Gaming",
+      "positive" : true
+    },
+    {
+      "name" : "rMeIrl",
+      "description" : "r/gaming: Fortnite is doomed",
+      "tag" : "Gaming",
+      "positive" : true
+    },
+    {
+      "name" : "rMovies",
+      "description" : "r/movies Posting to r/movies",
+      "tag" : "Movies",
+      "positive" : true
+    }
+  ]
+}

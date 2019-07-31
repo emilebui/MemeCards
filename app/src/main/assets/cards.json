@@ -1,0 +1,229 @@
+{
+  "cards" : [
+    {
+      "name": "Mocking Spongebob",
+      "description" : "I aM A rEtARd \n(this meme is so bad 1/5)",
+      "upvotes" : 5900,
+      "fileName" : "mocking_spongebob.jpg",
+      "tag" : "Cartoon",
+      "locked" : false,
+      "price" : 100
+    },
+    {
+      "name": "Surprised Pikachu",
+      "description" : "Her: Haha, you're so short \nMe: Haha, you're so fat",
+      "upvotes" : 2300,
+      "fileName" : "surprised_pikachu.jpg",
+      "tag" : "Anime",
+      "locked" : false,
+      "price" : 100
+    },
+    {
+      "name": "Unsettled Tom",
+      "description": "Me: *clears off table after dinner*\nDatabase team:",
+      "upvotes": 4600,
+      "fileName": "unsettled_tom.jpg",
+      "tag" : "Cartoon",
+      "locked" : false,
+      "price" : 100
+    },
+    {
+      "name": "Pointing Spiderman",
+      "description" : "when 2 retards shit talk each other",
+      "upvotes" : 3700,
+      "fileName" : "pointing_spiderman.jpg",
+      "tag" : "Cartoon",
+      "locked" : false,
+      "price" : 100
+    },
+    {
+      "name": "Me And The Boys",
+      "description" : "Me and the group making a meme theme card game",
+      "upvotes" : 5300,
+      "fileName" : "me_and_the_boys.png",
+      "tag" : "Cartoon",
+      "locked" : false,
+      "price" : 100
+    },
+    {
+      "name" : "Tuxedo Pooh",
+      "description" : "white\n#FFFFFF",
+      "upvotes" : 2100,
+      "fileName" : "tuxedo_pooh.jpg",
+      "tag" : "Cartoon",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "Is This?",
+      "description" : "*making these memes* Is this android development?",
+      "upvotes" : 3400,
+      "fileName" : "is_this.jpg",
+      "tag" : "Anime",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "Ah Shit",
+      "description" : "Mfw working on the next iteration",
+      "upvotes" : 2500,
+      "fileName" : "ah_shit.jpg",
+      "tag" : "Gaming",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "Drake",
+      "description" : "Use Unity to build game? Nay \nUse Android Studio to build game? YEA" ,
+      "upvotes" : 3400,
+      "fileName" : "drake.jpg",
+      "tag" : "Music",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "It Ain't Much",
+      "description" : "Build my own shitty layout rather copying from the open source" ,
+      "upvotes" : 4200,
+      "fileName" : "it_aint_much.jpg",
+      "tag" : "IRL",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "First Half",
+      "description" : "Making a comeback on this course",
+      "upvotes" : 1200,
+      "fileName" : "first_half.jpg",
+      "tag" : "Sports",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "Expanding Brain",
+      "description" : "Using spoon to eat rice instead of chopstick",
+      "upvotes" : 2700,
+      "fileName" : "expanding_brain.jpg",
+      "tag" : "IRL",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "Perfectly Balanced",
+      "description" : "My motivation and my lazyness",
+      "upvotes" : 5100,
+      "fileName" : "perfectly_balanced.jpg",
+      "tag" : "Movies",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "Choose Wisely",
+      "description" : "Imagine spending 1k for a stand OMEGALUL",
+      "upvotes" : 700,
+      "fileName" : "choose_wisely.jpg",
+      "tag" : "Technology",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "Confused Nick",
+      "description" : "Things teacher said in class",
+      "upvotes" : 800,
+      "fileName" : "confused_nick.jpg",
+      "tag" : "Sports",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "Guy Looking Back",
+      "description" : "Me remembering shit memory instead of good one",
+      "upvotes" : 3000,
+      "fileName" : "guy_looking_back.jpg",
+      "tag" : "IRL",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "Guy Stopping Another Guy",
+      "description" : "Me chasing my goal vs reality",
+      "upvotes" : 2200,
+      "fileName" : "guy_stopping.png",
+      "tag" : "IRL",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "Smash Button",
+      "description" : "SUBSCRIBE TO PEWDIEPIE",
+      "upvotes" : 1300,
+      "fileName" : "smash_button.jpg",
+      "tag" : "IRL",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "Savage Patrick",
+      "description" : "me at 2 am",
+      "upvotes" : 1100,
+      "fileName" : "savage_patrick.png",
+      "tag" : "IRL",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "Monkey Look Away",
+      "description" : "MFW The guy peeing next to me",
+      "upvotes" : 3100,
+      "fileName" : "monkey_look_away.png",
+      "tag" : "IRL",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "Pepe Frog",
+      "description" : "MFW I look back at my life PepeHands",
+      "upvotes" : 1500,
+      "fileName" : "card_img_pepe.jpg",
+      "tag" : "IRL",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "Tom Cat",
+      "description" : "God father of cartoon",
+      "upvotes" : 2300,
+      "fileName" : "card_img_tomcat.jpg",
+      "tag" : "Cartoon",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "Thanos",
+      "description" : "Strongest creature in the universe",
+      "upvotes" : 5000,
+      "fileName" : "card_img_thanos.jpg",
+      "tag" : "Movies",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "Gachi",
+      "description" : "Manliest man on earth, spam GachiBass for ANIKI",
+      "upvotes" : 2500,
+      "fileName" : "card_img_gachi.jpg",
+      "tag" : "IRL",
+      "locked" : true,
+      "price" : 100
+    },
+    {
+      "name" : "AYAYA",
+      "description" : "Represents all weebs",
+      "upvotes" : 3000,
+      "fileName" : "card_img_ayaya.jpg",
+      "tag" : "Anime",
+      "locked" : true,
+      "price" : 100
+    }
+  ]
+}
