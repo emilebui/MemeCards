@@ -266,8 +266,6 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_alignStart="@+id/event_board"
-            android:layout_alignTop="@+id/event_board"
             android:gravity="center"
             android:text="Trending"
             android:textSize="25sp" />
