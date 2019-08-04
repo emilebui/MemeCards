@@ -42,7 +42,9 @@ public class PopupCardActivity extends AppCompatActivity {
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
 
-        getWindow().setLayout(800,1200);
+        int h = dm.heightPixels;
+
+        getWindow().setLayout((int)(0.781*h),h);
 
         WindowManager.LayoutParams params = getWindow().getAttributes();
         params.gravity = Gravity.CENTER;
