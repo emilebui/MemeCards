@@ -6,45 +6,42 @@
     tools:context="com.example.presentation.StartGameActivity">
 
     <!--<ImageView-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:background="@drawable/battle_bg"-->
-    <!--android:alpha="0.3"/>-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@drawable/battle_bg"-->
+        <!--android:alpha="0.3"/>-->
 
     <LinearLayout
         android:id="@+id/time_constraint_mode"
-        android:layout_width="180dp"
-        android:layout_height="70dp"
-        android:layout_below="@+id/scoreboard_AI"
-        android:layout_marginTop="5dp"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
         android:layout_alignParentRight="true"
-        android:background="@drawable/border_test"
+        android:layout_centerInParent="true"
         android:orientation="vertical"
+        android:background="@drawable/border_test"
         android:visibility="invisible">
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="Time Remaining to Beat AI"
             android:layout_gravity="center"
-            android:layout_marginTop="5dp"
-            android:text="Time Remaining to Beat AI "
-            android:textSize="12sp"
-            android:textStyle="bold" />
-
+            android:layout_marginTop="5dp"/>
         <TextView
             android:id="@+id/time_countdown"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:layout_marginTop="15dp"
-            android:text="30"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text="30"/>
     </LinearLayout>
 
     <GridLayout
-        android:layout_width="420dp"
-        android:layout_height="100dp"
+        android:layout_width="520dp"
+        android:layout_height="120dp"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
         android:columnCount="5"
@@ -52,8 +49,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardview_0"
-            android:layout_width="80dp"
-            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
             android:layout_columnWeight="1">
 
             <LinearLayout
@@ -63,8 +60,8 @@
 
                 <ImageView
                     android:id="@+id/card_img_0"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:background="#123"
                     android:scaleType="centerCrop"/>
 
@@ -93,8 +90,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardview_1"
-            android:layout_width="80dp"
-            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
             android:layout_columnWeight="1">
 
             <LinearLayout
@@ -104,8 +101,8 @@
 
                 <ImageView
                     android:id="@+id/card_img_1"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:background="#123"
                     android:scaleType="centerCrop"/>
 
@@ -134,8 +131,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardview_2"
-            android:layout_width="80dp"
-            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
             android:layout_columnWeight="1">
 
             <LinearLayout
@@ -145,8 +142,8 @@
 
                 <ImageView
                     android:id="@+id/card_img_2"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:background="#123"
                     android:scaleType="centerCrop"/>
 
@@ -175,8 +172,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardview_3"
-            android:layout_width="80dp"
-            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
             android:layout_columnWeight="1">
 
             <LinearLayout
@@ -186,8 +183,8 @@
 
                 <ImageView
                     android:id="@+id/card_img_3"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:background="#123"
                     android:scaleType="centerCrop"/>
 
@@ -216,8 +213,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardview_4"
-            android:layout_width="80dp"
-            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
             android:layout_columnWeight="1">
 
             <LinearLayout
@@ -227,8 +224,8 @@
 
                 <ImageView
                     android:id="@+id/card_img_4"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:background="#123"
                     android:scaleType="centerCrop"/>
 
@@ -260,8 +257,8 @@
 
     <LinearLayout
         android:id="@+id/event_board"
-        android:layout_width="180dp"
-        android:layout_height="200dp"
+        android:layout_width="200dp"
+        android:layout_height="225dp"
         android:background="@drawable/border_test"
         android:orientation="vertical"
         android:visibility="invisible">
@@ -271,18 +268,18 @@
             android:layout_height="40dp"
             android:gravity="center"
             android:text="Trending"
-            android:textSize="15sp" />
+            android:textSize="20sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="60dp"
             android:orientation="horizontal">
             <TextView
                 android:id="@+id/event_priority_display_0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/border_test"
-                android:textSize="10sp"
+                android:textSize="12sp"
                 android:textStyle="bold"
                 android:padding="2sp"
                 android:layout_marginLeft="10dp"/>
@@ -290,22 +287,22 @@
                 android:id="@+id/event_display_0"
                 android:layout_marginLeft="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:text="Breaking new: all weebs are pedo"
-                android:textSize="10sp" />
+                android:textSize="12sp" />
         </LinearLayout>
 
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="60dp"
             android:orientation="horizontal">
             <TextView
                 android:id="@+id/event_priority_display_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/border_test"
-                android:textSize="10sp"
+                android:textSize="12sp"
                 android:textStyle="bold"
                 android:padding="2sp"
                 android:layout_marginLeft="10dp"/>
@@ -313,20 +310,20 @@
                 android:id="@+id/event_display_1"
                 android:layout_marginLeft="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:textSize="10sp" />
+                android:layout_height="60dp"
+                android:textSize="12sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="60dp"
             android:orientation="horizontal">
             <TextView
                 android:id="@+id/event_priority_display_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/border_test"
-                android:textSize="10sp"
+                android:textSize="12sp"
                 android:textStyle="bold"
                 android:padding="2sp"
                 android:layout_marginLeft="10dp"/>
@@ -334,33 +331,33 @@
                 android:id="@+id/event_display_2"
                 android:layout_marginLeft="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:textSize="10sp" />
+                android:layout_height="60dp"
+                android:textSize="12sp" />
         </LinearLayout>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="150dp"
-        android:layout_height="180dp"
+        android:layout_width="180dp"
+        android:layout_height="230dp"
         android:layout_alignParentBottom="true"
         android:orientation="vertical"
         android:background="@drawable/border_test">
 
         <ImageView
-            android:layout_width="120dp"
+            android:layout_width="150dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:src="@drawable/pepega_avatar"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:text="YOU"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:layout_gravity="center"/>
 
         <TextView
@@ -368,35 +365,34 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:text="0"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:layout_gravity="center"/>
 
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/scoreboard_AI"
-        android:layout_width="150dp"
-        android:layout_height="180dp"
+        android:layout_width="180dp"
+        android:layout_height="230dp"
         android:layout_alignParentRight="true"
         android:orientation="vertical"
         android:background="@drawable/border_test">
 
         <ImageView
-            android:layout_width="120dp"
+            android:layout_width="150dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:src="@drawable/ai_avatar"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:text="AI PLAYER"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:layout_gravity="center"/>
 
         <TextView
@@ -404,44 +400,44 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:text="0"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:layout_gravity="center"/>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="180dp"
+        android:layout_height="230dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:orientation="vertical"
         android:background="@drawable/border_test">
 
         <TextView
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginLeft="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:text="Tired of losing to AI"
             android:gravity="center" />
 
         <TextView
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:layout_marginLeft="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:text="How about joining League of Loser in"
             android:gravity="center" />
 
         <Button
             android:id="@+id/ragequit_btn"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -451,16 +447,15 @@
 
     <RelativeLayout
         android:id="@+id/final_board"
-        android:layout_width="420dp"
-        android:layout_height="250dp"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
         android:layout_centerInParent="true">
 
         <LinearLayout
             android:id="@+id/human_cardfield"
-            android:layout_width="150dp"
-            android:layout_height="200dp"
-            android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_alignParentBottom="true"
             android:orientation="vertical"
             android:background="@drawable/border_test"
             android:visibility="invisible">
@@ -471,7 +466,7 @@
                 android:orientation="horizontal">
                 <TextView
                     android:id="@+id/cardfield_name_1"
-                    android:layout_width="120dp"
+                    android:layout_width="145dp"
                     android:layout_height="20dp"
                     android:textStyle="bold"
                     android:layout_marginLeft="10dp" />
@@ -489,11 +484,11 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="150dp">
+                android:layout_height="200dp">
                 <ImageView
                     android:id="@+id/cardfield_img_1"
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="200dp"
                     android:scaleType="centerCrop"
                     android:adjustViewBounds="true"/>
                 <ProgressBar
@@ -528,10 +523,9 @@
 
         <LinearLayout
             android:id="@+id/ai_cardfield"
-            android:layout_width="150dp"
-            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
             android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
             android:orientation="vertical"
             android:background="@drawable/border_test"
             android:visibility="invisible">
@@ -542,7 +536,7 @@
                 android:orientation="horizontal">
                 <TextView
                     android:id="@+id/cardfield_name_0"
-                    android:layout_width="120dp"
+                    android:layout_width="145dp"
                     android:layout_height="20dp"
                     android:textStyle="bold"
                     android:layout_marginLeft="10dp" />
@@ -561,11 +555,11 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="150dp">
+                android:layout_height="200dp">
                 <ImageView
                     android:id="@+id/cardfield_img_0"
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="200dp"
                     android:scaleType="centerCrop"
                     android:adjustViewBounds="true"/>
                 <ProgressBar
@@ -610,43 +604,43 @@
     </RelativeLayout>
 
     <GridLayout
-        android:layout_width="420dp"
-        android:layout_height="100dp"
+        android:layout_width="520dp"
+        android:layout_height="120dp"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true">
 
         <ImageView
             android:id="@+id/ai_card_0"
-            android:layout_height="100dp"
-            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_width="100dp"
             android:layout_columnWeight="1"
             android:src="@drawable/back_card"
             android:scaleType="centerCrop" />
         <ImageView
             android:id="@+id/ai_card_1"
-            android:layout_height="100dp"
-            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_width="100dp"
             android:layout_columnWeight="1"
             android:src="@drawable/back_card"
             android:scaleType="centerCrop"/>
         <ImageView
             android:id="@+id/ai_card_2"
-            android:layout_height="100dp"
-            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_width="100dp"
             android:layout_columnWeight="1"
             android:src="@drawable/back_card"
             android:scaleType="centerCrop"/>
         <ImageView
             android:id="@+id/ai_card_3"
-            android:layout_height="100dp"
-            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_width="100dp"
             android:layout_columnWeight="1"
             android:src="@drawable/back_card"
             android:scaleType="centerCrop"/>
         <ImageView
             android:id="@+id/ai_card_4"
-            android:layout_height="100dp"
-            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_width="100dp"
             android:layout_columnWeight="1"
             android:src="@drawable/back_card"
             android:scaleType="centerCrop"/>
