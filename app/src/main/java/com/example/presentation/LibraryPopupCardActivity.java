@@ -34,7 +34,11 @@ public class LibraryPopupCardActivity extends AppCompatActivity {
         //Make popup be in the center
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
-        getWindow().setLayout(800,1200);
+
+        int h = dm.heightPixels;
+
+        getWindow().setLayout((int)(0.781*h),h);
+
         WindowManager.LayoutParams params = getWindow().getAttributes();
         params.gravity = Gravity.CENTER;
         params.x = 0;
