@@ -2,8 +2,8 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:cardview="http://schemas.android.com/apk/res-auto"
     android:id="@+id/CardView"
-    android:layout_width="220dp"
-    android:layout_height="280dp"
+    android:layout_width="300dp"
+    android:layout_height="380dp"
     android:layout_margin="20dp"
     android:clickable="true"
     cardview:cardCornerRadius="4dp">
@@ -15,8 +15,8 @@
 
         <ImageView
             android:id="@+id/Selected"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
@@ -27,15 +27,15 @@
         <ImageView
             android:id="@+id/CardImage"
             android:layout_width="match_parent"
-            android:layout_height="220dp"
+            android:layout_height="300dp"
             android:background="@color/colorWrite"
             android:scaleType="centerInside"
             cardview:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/CardName"
-            android:layout_width="220dp"
-            android:layout_height="60dp"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
             android:background="@color/colorWrite"
             android:gravity="center"
             android:text="Card Name"
