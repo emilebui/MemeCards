@@ -1,5 +1,6 @@
 # MemeCards
 MemeCards is a fun, interactive yet simple turn-based card game that everyone can enjoy.
+- [Click here for more info](https://github.com/emilebui/MemeCards/tree/master/website)
 
 ## Getting Started
 1. Clone the repo.
